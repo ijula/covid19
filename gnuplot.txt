@@ -1,0 +1,65 @@
+### gnuplot one-liners.
+
+
+## PNG: black background, green labels and borders, red data line.
+today="$(date +%m-%d-%Y)"; grep Romania *.csv | awk -F',' '{print substr($1, 1, 10) " " $4 " " $5 " " $6}' | gnuplot -e "set terminal pngcairo enhanced background rgb 'black'; set title 'COVID-19' tc rgb 'green'; set key left top tc rgb 'green'; set xdata time; set timefmt \"%m-%d-%Y\"; set xrange ['03-01-2020':'$today']; set border lc rgb 'green'; plot '-' u 1:2 t 'New Cases' w lines;" > chart2.png
+
+
+## terminal output.
+# debug: show range;
+[ijula@usmtnz-dinfap36:108800:252:~/github/COVID-19/csse_covid_19_data/csse_covid_19_daily_reports]
+% today="$(date +%m-%d-%Y)"; grep Romania *.csv | awk -F',' '{print substr($1, 1, 10) " " $4 " " $5 " " $6}' | gnuplot -e "set terminal dumb; set title 'COVID-19'; set key left top; set xdata time; set timefmt \"%m-%d-%Y\"; set xrange ['03-01-2020':'$today']; plot '-' u 1:2 t 'New Cases' w lines;"
+
+                                    COVID-19
+
+  450 ++++-++-++-+-++-++-++-+-++-++-++-+-++-++-++-++-+-++-++-++-+-++-++-++++
+      |New Cases ******     +     +      +     +     +     +      +     *  |
+  400 ++                                                              **  ++
+      |                                                              *     |
+  350 ++                                                            *     ++
+      |                                                            *       |
+  300 ++                                                        ***       ++
+      |                                                      ***           |
+  250 ++                                                   **             ++
+      |                                                   *                |
+  200 ++                                                 *                ++
+      |                                                **                  |
+  150 ++                                            ***                   ++
+      |                                       ******                       |
+  100 ++                                    **                            ++
+      |                                   **                               |
+   50 ++                            ******                                ++
+      |  +     +      +    *********     +     +     +     +      +     +  |
+    0 *********************-+-++-++-++-+-++-++-++-++-+-++-++-++-+-++-++-++++
+       03/02 03/04  03/06 03/08 03/10  03/12 03/14 03/16 03/18  03/20 03/22
+
+
+# range: from the beginning till today:
+[ijula@usmtnz-dinfap36:108800:251:~/github/COVID-19/csse_covid_19_data/csse_covid_19_daily_reports]
+% today="$(date +%m-%d-%Y)"; grep Romania *.csv | awk -F',' '{print substr($1, 1, 10) " " $4 " " $5 " " $6}' | gnuplot -e "set terminal dumb; set title 'COVID-19'; set key left top; set xdata time; set timefmt \"%m-%d-%Y\"; set xrange [*:'$today']; plot '-' u 1:2 t 'New Cases' w lines;"
+
+                                    COVID-19
+
+  450 +++--+-+-+--+-+-+-+--+-+-+--+-+-+--+-+-+-+--+-+-+--+-+-+--+-+-+-+--+++
+      +New Cases ******               +               +               +  * |
+  400 ++                                                               ** ++
+      |                                                               *    |
+  350 ++                                                             *    ++
+      |                                                              *     |
+  300 ++                                                           **     ++
+      |                                                          **        |
+  250 ++                                                        *         ++
+      |                                                        *           |
+  200 ++                                                      *           ++
+      |                                                     **             |
+  150 ++                                                  **              ++
+      |                                              *****                 |
+  100 ++                                            *                     ++
+      |                                            *                       |
+   50 ++                                      *****                       ++
+      +               +               + ******        +               +    |
+    0 +++--+-+-*************************-+-+-+-+--+-+-+--+-+-+--+-+-+-+--+++
+    02/22           02/29           03/07           03/14           03/21
+
+
+
