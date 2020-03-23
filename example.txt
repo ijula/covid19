@@ -53,6 +53,7 @@
 
 
 # growth:
+$ country='Romania'; today="$(date +%m-%d-%Y)"; grep ",$country," ./*.csv | awk -F',' '{print substr($1, 3, 10) " " $4 " " $5 " " $6}' > data
 $ awk 'p{print $1, p, $2-p}{p=$2}' data
 02-27-2020 1 0
 02-28-2020 1 2
@@ -79,3 +80,5 @@ $ awk 'p{print $1, p, $2-p}{p=$2}' data
 03-20-2020 277 31
 03-21-2020 308 59
 03-22-2020 367 66
+
+# TODO: document awk expressions.
