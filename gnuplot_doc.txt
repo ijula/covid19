@@ -1,0 +1,14 @@
+# show named collors.
+$ gnuplot -e "show palette colornames" |& grep green
+  web-green          #00c000 =   0 192   0
+  dark-spring-green  #008040 =   0 128  64
+  light-green        #90ee90 = 144 238 144
+  green              #00ff00 =   0 255   0
+  dark-green         #006400 =   0 100   0
+  spring-green       #00ff7f =   0 255 127
+  forest-green       #228b22 =  34 139  34
+  sea-green          #2e8b57 =  46 139  87
+  dark-olivegreen    #556b2f =  85 107  47
+  seagreen           #c1ffc1 = 193 255 193
+  greenyellow        #a0ff20 = 160 255  32
+
