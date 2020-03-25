@@ -97,4 +97,5 @@ $ country='Romania'; today="$(date +%m-%d-%Y)"; gnuplot -p -e "set terminal dumb
      1 +-------------------------------------------------------------------+
                 03/05              03/12              03/19              03/26
 
-
+# svg
+country='Romania'; today="$(date +%m-%d-%Y)"; gnuplot -e "set terminal svg enhanced background rgb 'black'; set title 'COVID-19 $country $today (log)' tc rgb 'green'; set key left top tc rgb 'green'; set xdata time; set timefmt \"%m-%d-%Y\"; set xrange ['03-02-2020':'$today']; show xrange; set border lc rgb 'green'; set logscale y; plot '-' u 1:2 t 'New Cases' w lines lc rgb 'red';" >"covid19_${country}_${today}_log.svg" <data
