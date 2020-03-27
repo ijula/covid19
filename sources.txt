@@ -1,0 +1,8 @@
+Data sources:
+
+# Tracking and privacy.
+https://www.sciencemag.org/news/2020/03/cellphone-tracking-could-help-stem-spread-coronavirus-privacy-price
+https://news.trust.org/item/20200327115619-tv0fw/
+https://www.nytimes.com/2020/03/23/technology/coronavirus-surveillance-tracking-privacy.html
+
+TODO: Add article from The Economist (March 26th, front page - I think).
