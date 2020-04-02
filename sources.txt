@@ -1,9 +1,19 @@
 Data sources:
+http://nrg.cs.ucl.ac.uk/mjh/covid19/
+https://github.blog/2020-03-23-open-collaboration-on-covid-19/
+https://neherlab.org/covid19/
+https://covid19dashboards.com/
+https://hgis.uw.edu/virus/
+https://corona.help/
+http://graphnets.ro/
 
 # Tracking and privacy.
 https://www.sciencemag.org/news/2020/03/cellphone-tracking-could-help-stem-spread-coronavirus-privacy-price
 https://news.trust.org/item/20200327115619-tv0fw/
 https://www.nytimes.com/2020/03/23/technology/coronavirus-surveillance-tracking-privacy.html
+
+# Discussions:
+https://www.theatlantic.com/science/archive/2020/03/coronavirus-nasa-space-exploration/608782/
 
 https://www.youtube.com/watch?v=Xe8fIjxicoo
 https://www.youtube.com/watch?v=gxAaO2rsdIs
