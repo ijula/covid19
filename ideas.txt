@@ -1,0 +1,98 @@
+COVID-10 steps.
+1.  first wave: control the cases, so that the healthcare system does not get overwhelmed.
+    aggressive intervention early on.
+    quarantines, travel restrictions, movement restrictions, less friction.
+    exit strategy?
+    when do we exit from the stage one? cannot go on like this forever (“bomba economia”!).
+    people are generally having compliance issues, so this is not going to work for a long time.
+2.  limited return to function.
+    combined w/ broad testing and quick response (tracking the link chain, isolating the interactions and quarantining).
+    health care systems: same measures applied. social distancing in hospitals, proper PPE, extensive testing.
+3.  test for antibodies the people who were already exposed.
+    controllable cases will be managed properly.
+    more tracking of people, interactions, and movements (it sounds Orwellian, but this will have to happen anyway, and a tradeoff between privacy and health safety will need to be negotiated).
+
+No predictable model.
+
+amplification vectors.
+grocery store workers, sanitation workers, drivers, healthcare professionals.
+
+selective quarantine + testing + tracking.
+
+About two weeks ago, when I first started to explain to my friends why everybody should advise as many people as possible not to go to the hospital if they experience any symptoms (but call their physical or health care provider instead), I received a very negative response, just as paranoia and fear started to reach out into the media.
+
+Collective support. NATO.
+
+
+
+Privacy and tracking. A necessary tradeoff.
+
+Been looking at the data for a while, plotted charts and shared with friends.
+
+Uncomfortable discussions. first, there were the advices against travel and outdoor recreation. met with a lot of opposition.
+contingency plans for shutting down a plant.
+cost reduction. re-evaluating the costs.
+travel budget - where does it go?
+
+future or medical services: remote doctor-patient sessions.
+
+
+
+
+
+
+COVID-19: the second wave, and beyond.
+
+privacy and tracking already happening at a very large scale and very successful, for making your life better... advertising -- leveraging that huge amount of experience and getting into a proper health tracking system.
+
+airport security -- just theatre. why not thermal scans at the major international hubus?
+have protocols in place so that the next time WHO predicts an epidemic, pandemic, or an outbreak is detected, test can be administers on a large scale for travelers coming from a certain region.
+
+passive tracking. sensors (ultrasound, or sound -- cough patterns), hearth rate.
+HR information that is already sent to the companies and stores and analyzer and parsed and big data populated.
+HR increases happen before temperature increases.
+
+when WHO predicts a pandemic, hospitals need to have protocols in place that would get the supply chain tighten and facilitate stocking larger quantities of PPE.
+
+
+first wave: pandemic could not be contained.
+the case that we see today are the result of friction that happened two weeks ago.
+    and the friction that is happening today will cause the deaths 1-2-3 weeks from now.
+draconian response -- not going to go on for so long. many months from now, not feasible. so, what to do.
+pandemic going on for 1.5 - 2 years.
+
+
+we still live under the false impression that we are doing much better, because the numbers are still low, but look at the trend and growth.
+
+shift the focus on how privacy and personal/medical data will be handled in the future.
+remote working conditions - this proves that much more can be done remotely than we imagine. technology enhances.
+medical remote assistance. direct contact w/ doctor (paradigm shift from the saint of "seeing a doctor")!
+there have been talks about an invasion of privacy – but of how it needs need to be!
+
+
+deliver tests - not feasible on a very large scale.
+Self-administered tests – still must be sent out for CPR.
+
+
+epidermis and exp growth - hard to understand because the numbers change so fast
+media and points in time reports do not help anyone into seeing the bigger picture
+news: bad.
+detectable progress? 
+exp -> logistic curve.
+hard to tell when its ending when you’re on the verge of the exp growth.
+also, the decrease will only happen after the exp growth reaches its peak!
+
+if a country doesn’t have "a lot of" cases right now, it will most probably follow the same path as other countries.
+safe to say that if right now, there is a relatively low number in comparison, much more will follow.
+check the log scale. which scales up small numbers and scales down large numbers. and makes visualization easier and natural.
+watch the change in numbers, not the numbers themselves at a certain point in time.
+
+TOOD: plot a linear graph of just the new cases (per days).
+
+have these uncomfortable discussions now. better to be laugh at later then.
+the sooner you do it in an aggressive way, the sooner you can undo it and go back to normal.
+
+
+
+
+
